@@ -85,7 +85,7 @@ spec:
           optional: true
       containers:
       - name: codewind-pfe
-        image: sys-mcs-docker-local.artifactory.swg-devops.com/sakib/codewind-pfe-amd64:sakib
+        image: sakibh/codewind-pfe-amd64:sakib
         imagePullPolicy: "Always"
         securityContext:
           privileged: true
